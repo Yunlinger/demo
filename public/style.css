@@ -1,0 +1,35 @@
+canvas{
+  position: relative;
+  top: 120px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0,5);
+}
+
+#runButton {
+  position: absolute;
+  top:50%;
+  left: 200px;
+  background: linear-gradient(145deg, #ff4e50, #f9d423); /* 渐变背景 */
+  color: white; /* 按钮文本颜色 */
+  font-size: 20px; /* 字体大小 */
+  font-family: 'Press Start 2P', cursive; /* 像素风格字体，类似于复古游戏 */
+  padding: 15px 30px; /* 内边距，按钮大小 */
+  border: none; /* 无边框 */
+  border-radius: 10px; /* 圆角边框 */
+  box-shadow: 0 5px #b33939, 0 10px #d35555; /* 3D按钮效果的阴影 */
+  text-transform: uppercase; /* 全部字母大写 */
+  cursor: pointer; /* 鼠标悬停时显示手型 */
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out; /* 动画效果 */
+}
+
+#runButton:active {
+  transform: translateY(5px); /* 按下时按钮的位移 */
+  box-shadow: 0 3px #b33939, 0 7px #d35555; /* 按下时阴影变浅 */
+}
+#banner{
+  display: block;
+  position: relative;
+  top: 120px;
+}
+

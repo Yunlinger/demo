@@ -1,0 +1,23 @@
+{
+  "name": "tiktokLiveGame",
+  "version": "1.0.0",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "pkg": {
+    "targets": [
+      "node14-win-x64"
+    ],
+    "assets": [
+      "public/**/*"
+    ]
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.x.x",
+    "tiktok-live-connector": "^1.x.x",
+    "ws": "^7.x.x"
+  }
+}
